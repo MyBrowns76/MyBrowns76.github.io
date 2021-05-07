@@ -2,32 +2,36 @@
 
 html {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
+ 
 }
 body {
-  background-image : url(../Old\ San\ Juan\ brick.jpg)
+  background-image : url(../Pic22.jpg)
+  
 }
 h1, h2, h3 {
   font-family: "Hammersmith One", sans-serif;
+  color:black;
 }
 .container {
-  background-color: rgb(128, 128, 128)
+  background-color: rgba(121, 196, 167, 0.979)
 }
 a:hover{
-    color: rgb(255, 0, 70);
+    color:white;
 }
-img {
-  border-radius: 15px;
-}
+
+/* img {
+  border-radius: 15px; */
+/* } */
 .projects__project {
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.938);
     border-radius: 15px;
 
 }
 .project-title{
 }
     back-to-top {
-    color: rgba(0, 17, 255, 0.897);
+    color: black;
 }
 .contact{
         justify-content: center;
@@ -39,11 +43,73 @@ img {
 footer{
     font-family: 'DM Serif Display', serif;
     text-align: center;
-    color: rgba(0, 17, 255, 0.897);
+    color: black;
 }
      .back-to-top {
-      color: rgba(0, 17, 255, 0.897);
+      color: black;
   }
 .back-to-top:hover{
-    color: rgb(255, 0, 70);
+    color: white;
 }
+body
+	{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		background-color: #fff;
+	}
+	.box
+	{
+		width: 200px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 25px 20px;
+		background: #120136;
+		box-sizing: border-box;
+		box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+	}
+  h1{
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		text-align: center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+  .skillbox {
+		box-sizing: border-box;
+		width: 20%;
+		margin: 20px 0;
+
+	}
+	.skillbox p {
+		padding: 0;
+		letter-spacing: 1px;
+		margin: 0 0 15px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: bold;
+
+	}
+	.skillbox p:nth-child(2)
+	{
+		float: right;
+		position: relative;
+		top: -25px;
+	}
+  .skill	{
+		box-sizing: border-box;
+		background: #fff;
+		border-radius: 8px;
+		
+	}
+.level	{
+		
+		width: 100%;
+		height: 15px;
+		border-radius: 8px;
+
+	}
+
