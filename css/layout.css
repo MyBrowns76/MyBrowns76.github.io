@@ -4,8 +4,8 @@
     padding: 0;
 }
 .container{
-    display: grid;
-    grid-template-rows: 300px auto 100px;
+    /* display: grid;
+    grid-template-rows: 300px auto 100px; */
     width: 700px;
     margin: auto;
     padding: 25px;
@@ -14,8 +14,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;  
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    
 }
 /* .header_nav{
     align-self: stretch;
@@ -47,14 +52,14 @@
     display: flex;
     flex-grow: inherit;
     justify-content: center;
-    padding: 40px;
+    padding: 5px;
     height: 100%;
-    width: auto;
+    width: 100%
     
 }
-/* img{
-    width: 8%;
-} */
+.picture_img{
+    width: 30%;
+}
 section{
     padding: 20px;
 }
@@ -67,17 +72,32 @@ section{
     font-size: 80%;
 }
 
-.footer{
+footer{
     padding-top: 2px;
 }
-.social__icons{
-    align-self: stretch;
+ .social-stuff{
+     align-self: stretch;
      display: flex;
-    flex-direction: row; 
-     justify-content:inherit;  
-}
+     flex-direction: row; 
+     justify-content:inherit;   
+     
+ }  
+ .social-stuff ul{
+     height: 50px;
+     width: 50px;
+ }
 
 .contact{
-    padding-top: 20px;
-    font-size: 80%;
-}
+    padding-top: 10px;
+    font-size: 80%; 
+ } 
+
+ .project-pics{
+     width:632.38px ;
+     height: 300px;
+     border-radius: 10px;
+ }
+ git__icon{
+     height: 100px;
+     width: 100px;
+ }
