@@ -9,7 +9,7 @@ body {
   background-image : url(../Pic22.jpg)
   
 }
-h1, h2, h3  {
+h1, h2, h3, h4 {
   font-family: "Hammersmith One", sans-serif;
   color:white;
 }
@@ -17,19 +17,20 @@ h1, h2, h3  {
 .container {
   background-color: rgba(121, 196, 167, 0.979)
 }
+.nav__link{
+	color: black;
+}
 a:hover{
     color:white;
 }
- /* img {
-  border-radius: 40px; 
-}  */
+ img {
+  border-radius: 10px; 
+} 
 .projects__project {
     border: 2px solid rgba(0, 0, 0, 0.938);
     border-radius: 15px;
 }
-    back-to-top {
-    color: black;
-}
+
 .contact{
         justify-content: center;
         text-align: center;
@@ -46,13 +47,13 @@ footer{
       color: white;
   }
 .back-to-top:hover{
-    color:green
+    color:rgb(81, 81, 201)
 }
 body
 	{
 		margin: 0;
 		padding: 0;
 		font-family: sans-serif;
-		background-color: #fff;
+		background-color: white;
 	}
 	
