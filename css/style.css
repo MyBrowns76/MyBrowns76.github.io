@@ -6,10 +6,10 @@ html {
  
 }
 body {
-  background-image : url(../croppedBackground.png); 
-  /* background-size: 300px 150px; */
-  /* background-repeat: no-repeat; */
-  
+  background-image : url(../Pic13.jpg); 
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+   
 
    
  
@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 }
 
 .container {
-  background-color: rgba(121, 196, 167, 0.979)
+  background-color: rgba(121, 196, 167, 0.993)
 }
 .nav__link{
 	color: black;
