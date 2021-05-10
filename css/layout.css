@@ -4,8 +4,7 @@
     padding: 0;
 }
 .container{
-    /* display: grid;
-    grid-template-rows: 300px auto 100px; */
+
     width: 700px;
     margin: auto;
     padding: 25px;
@@ -59,10 +58,11 @@
 }
 .picture_img{
     width: 30%;
+
     
 }
 section{
-    padding: 30px;
+    padding: px;
 }
 .projects__project{
     margin: 10px auto;
@@ -86,6 +86,9 @@ footer{
      height: 300px;
      border-radius: 20px;
  }
+ .project-pics:hover{
+     transform: scale(1.2);
+ }
   ul{
         /* display: inline-block;
         border:5px solid #000;
@@ -98,12 +101,39 @@ footer{
 }
 #about-me{
     border: 3px solid black;
-    padding-right: 20px;
+    padding-right: 60px;
     padding-left: 20px;
+    width: 650px;
+    border-radius: 5px;
+}
+.projects-one{
+    border: 3px solid black;
+    padding-left: 7px;
+    width: 650px;
+    border-radius: 5px;
+}
+.project-two{
+    border: 3px solid black; 
+    padding-left: 7px;
+    width: 650px;
+    border-radius: 5px;
+}
+.project-three{
+    border: 3px solid black;
+    padding-left: 7px;
     width: 650px;
     border-radius: 5px;
 }
 li{
     list-style: none;
     content: center;
+  }
+
+  .contact-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      
+      
+    
   }
