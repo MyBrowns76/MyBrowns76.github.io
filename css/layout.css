@@ -20,6 +20,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: teal;
+    border: medium solid transparent;
+    border-radius: 10px; 
+    
 }
 /* .header_nav{
     align-self: stretch;
@@ -30,6 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
+    border: medium solid transparent;
     
 
 }
@@ -39,6 +45,8 @@
     justify-content: space-evenly;
     margin: auto;
     width: 90%;
+    background-color: whitesmoke;
+    border: medium solid transparent;
   
     
 }
@@ -72,6 +80,7 @@ section{
     width:100%;
     padding: 5px;
     font-size: 80%;
+   
 }
 
 footer{
@@ -105,25 +114,36 @@ footer{
     padding-right: 60px;
     padding-left: 20px;
     width: 650px;
-    border-radius: 5px;
+    border-radius:  15px ;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+    
+    
+   
 }
 .projects-one{
     border: 3px solid black;
     padding-left: 7px;
     width: 650px;
     border-radius: 5px;
+    background-color: whitesmoke;
+    border: medium solid transparent;
 }
 .project-two{
     border: 3px solid black; 
     padding-left: 7px;
     width: 650px;
     border-radius: 5px;
+    background-color: teal;
+    border: medium solid transparent;
 }
 .project-three{
     border: 3px solid black;
     padding-left: 7px;
     width: 650px;
     border-radius: 5px;
+    background-color: whitesmoke;
+    border: medium solid transparent;
 }
 li{
     list-style: none;
