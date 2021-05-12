@@ -9,10 +9,6 @@ body {
   background-image : url(../Pic13.jpg); 
   background-repeat: no-repeat;
   background-attachment:fixed ;
-   
-
-   
- 
 }
 
 h1, h2, h3, h4 {
@@ -22,10 +18,11 @@ h1, h2, h3, h4 {
 
 .container {
   background-color: rgba(121, 196, 167, 0.993);
+  
 }
-.nav_links{
+/* .nav_links{
 	color: black;
-}
+} */
 a:hover{
     color: rgb(5, 190, 190);
 }
@@ -64,4 +61,3 @@ body
 		font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		background-color: white;
 	}
-	
