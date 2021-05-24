@@ -25,10 +25,10 @@
     border-radius: 10px; 
     
 }
-.header__nav{
+/* .header__nav{
     color: black;
     
-}
+} */
 .nav__link{
     width: 100px;
     display: flex;
@@ -50,6 +50,11 @@
     border: medium solid transparent;
 
 }
+.nav_links a {
+    color: black;
+    text-decoration: none;
+}
+
 .main{
     margin: 100px 0;
     display: grid;
