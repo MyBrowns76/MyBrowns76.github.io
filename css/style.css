@@ -61,3 +61,26 @@ body
 		font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		background-color: white;
 	}
+  @media (max-width: 768) {
+    .projects__project{
+      width: 45%;
+    }
+      .picture {
+        width: 45%;
+      }
+    
+      .nav_links {
+        width: 45%;
+  }
+  @media (max-width: 400px) {
+    .projects__project{
+      width: 100%;
+    }
+    .picture_img {
+      width: 45%;
+  }
+  .nav_links {
+    width: 45%;
+  }
+  }
+}
