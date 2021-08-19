@@ -7,10 +7,7 @@
 
     width: 700px;
     margin: auto;
-    padding: 50px;
-    /* padding-left: 50px;
-    padding-right: 50px; */
-    
+    padding: 25px;
 }
 .header{
     display: flex;
@@ -26,8 +23,6 @@
     background-color: teal;
     border: medium solid transparent;
     border-radius: 10px; 
-      padding-left: 50px;
-    padding-right: 20px; 
     
 }
 /* .header__nav{
@@ -64,8 +59,6 @@
     margin: 100px 0;
     display: grid;
     grid-template-columns: 5fr 3fr;
-    
-  
 }
 .picture{
     display: flex;
@@ -91,11 +84,7 @@
     flex-direction: column;
     width:100%;
     padding: 5px;
-    padding-left: 20px;
-    padding-right: -50px;
     font-size: 80%;
-    padding-top: 10px;
-
    
 }
 
@@ -111,8 +100,6 @@ footer{
      width:632.38px ;
      height: 300px;
      border-radius: 20px;
-     padding-left: 10px;
-     padding-right: 10px;
  }
  .project-pics:hover{
      transform: scale(1.3);
@@ -127,8 +114,8 @@ footer{
 }
 #about-me{
     border: 3px solid black;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 60px;
+    padding-left: 20px;
     width: 650px;
     border-radius:  15px ;
     background-color: whitesmoke;
@@ -140,44 +127,26 @@ footer{
 .projects-one{
     border: 3px solid black;
     padding-left: 7px;
-    padding-right: 7px;
     width: 650px;
     border-radius: 5px;
     background-color: whitesmoke;
     border: medium solid transparent;
-    padding-top: 10px;
-    padding-bottom: 15px;
 }
 .project-two{
     border: 3px solid black; 
-    /* padding-left: -100px;
-    padding-right: -10px; */
-    width: 625px;
+    padding-left: 7px;
+    width: 650px;
     border-radius: 5px;
     background-color: teal;
     border: medium solid transparent;
-    padding-top: 10px;
-    padding-bottom: 15px;
 }
 .project-three{
     border: 3px solid black;
     padding-left: 7px;
-    padding-right: 7px;
-    width: 625px;
+    width: 650px;
     border-radius: 5px;
     background-color: whitesmoke;
     border: medium solid transparent;
-      padding-left: 10px;
-    padding-right: 10px; 
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
- .project-five{
-    background-color: teal; 
-    width: 625px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-
 }
 li{
     list-style: none;
