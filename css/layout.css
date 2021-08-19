@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    width: 700px;
+    margin: auto;
+    padding: 25px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    border: medium solid transparent;
+    border-radius: 10px; 
+    
+}
+/* .header__nav{
+    color: black;
+    
+} */
+.nav__link{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+    
+    
+
+}
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+
+}
+.nav_links a {
+    color: black;
+    text-decoration: none;
+}
+
+.main{
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+.picture{
+    display: flex;
+    flex-grow: inherit;
+    justify-content: center;
+    padding: 5px;
+    height: 100%;
+    width: 100%
+    
+}
+.picture_img{
+    width: auto;
+    height: 350px;
+
+    
+}
+/* section{
+    padding: px;
+} */
+.projects__project{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 5px;
+    font-size: 80%;
+   
+}
+
+footer{
+    padding-top: 2px;
+}
+.contact{
+    padding-top: 10px;
+    font-size: 80%; 
+ } 
+
+ .project-pics{
+     width:632.38px ;
+     height: 300px;
+     border-radius: 20px;
+ }
+ .project-pics:hover{
+     transform: scale(1.3);
+ }
+  ul{
+       
+        border: 5px solid whitesmoke; 
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 300px;
+        border-radius: 5px;    
+}
+#about-me{
+    border: 3px solid black;
+    padding-right: 60px;
+    padding-left: 20px;
+    width: 650px;
+    border-radius:  15px ;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+    
+    
+   
+}
+.projects-one{
+    border: 3px solid black;
+    padding-left: 7px;
+    width: 650px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+}
+.project-two{
+    border: 3px solid black; 
+    padding-left: 7px;
+    width: 650px;
+    border-radius: 5px;
+    background-color: teal;
+    border: medium solid transparent;
+}
+.project-three{
+    border: 3px solid black;
+    padding-left: 7px;
+    width: 650px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+}
+li{
+    list-style: none;
+    content: center;
+  }
+
+  .contact-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;     
+
+  }
+  #disappearing{display:block;width:60%;height:auto;border:5px solid white;opacity:1;margin:auto;transition:6s;cursor:grab;}
+#disappearing:hover{width:20%;opacity:0;transition:4s;
+}
+.gmail__icon:hover{
+    transform: scale(1.3);    
+}
+.lin__icon:hover{
+    transform: scale(1.1);
+}
+.git__icon:hover{
+    transform: scale(1.3);
+}
