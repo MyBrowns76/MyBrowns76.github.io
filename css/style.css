@@ -100,7 +100,8 @@ body
           width: 45%
         }
   }
-  @media (max-width: 300px) {
+
+  @media only screen and (max-width: 300px) {
     .projects__project{
       width: 100%;
     }
@@ -109,11 +110,18 @@ body
   }
   .nav_links {
     width: 45%;
+  } 
+  .contact {
+    width: 45%;
   }
    .contact {
     width: 45%
   }
   #myBtn {
     width: 45%
+  }
+
+  .container{
+    width: 45%;
   }
   }
